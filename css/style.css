@@ -315,6 +315,10 @@ section { padding: 76px 0; position: relative; }
 /* marker font has a single weight: avoid faux-bold, give it a little air */
 h1, h2, h3, h4, .nav .logo { font-weight: 400; }
 .nav .logo { font-family: "DM Serif Display", Georgia, serif; font-style: italic; font-weight: 400; font-size: 22px; letter-spacing: .2px; }
+/* handwritten signature logo (replaces the name text) */
+.logo-img { height: 48px; width: auto; display: block; }
+.sig-foot { height: 30px; width: auto; vertical-align: middle; }
+@media (max-width: 600px) { .logo-img { height: 40px; } }
 
 /* brush-script display sizing (Caveat Brush sits smaller, so size up) */
 .hero .intro h1 { font-size: clamp(46px, 6.6vw, 72px); line-height: 1.0; letter-spacing: 0; }
